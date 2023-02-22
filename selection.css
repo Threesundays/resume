@@ -20,18 +20,25 @@ body {
 
 .avatar {
     border: 1px solid black;
+    margin: 5px;
     width: 300px;
     border-radius: 25px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
 }
+
 .info {
     font-style: italic;
     margin-bottom: 20px;
 }
 
 .info-text p {
+    margin-left: 20px;
     font-style: oblique;
-    color: #DAA520;
+    color: #181818;
+}
+
+.info-text h1 {
+    margin-left: 20px;
 }
 
 .card {
@@ -40,53 +47,63 @@ body {
     margin: 5px;
     margin-bottom: 20px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
-    
+
 }
+
+.col2 li {
+    display: inline-flex;
+
+    width: 45%;
+}
+
+
+
 
 .skills {
-    background-color: #DAA520;
+    background-color: #207f60;
     padding: 15px 20px;
 }
- .experience {
-    background-color: #526997;
+
+.experience {
+    background-color: #207f60;
     padding: 15px 20px;
- }
+}
 
- .ask {
-    background-color: rgb(79, 189, 112);
+.ask {
+    background-color: #207f60;
     padding: 15px 20px;
- }
+}
 
 
 
- .btn {
-    background: #2b2a2a;
+.btn {
+    background: #FF5600;
     padding: 15px 20px;
     color: #fff;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     font-family: inherit;
- }
+}
 
- .btn:hover {
-    color: #DAA520;
- }
- 
- a {
+.btn:hover {
+    color: #00AA72;
+}
+
+a {
     text-decoration: none;
- }
+}
 
- a:hover {
+a:hover {
     color: #DAA520;
     text-decoration: underline;
- }
+}
 
- .table {
+.table {
     width: 100%;
- }
+}
 
- .table td {
+.table td {
     text-align: center;
     padding-bottom: 10px;
 }
@@ -96,8 +113,8 @@ body {
 }
 
 .form-row {
-margin-bottom: 10px;
-display: flex;
+    margin-bottom: 10px;
+    display: flex;
 }
 
 .form-row .form-group {
@@ -110,9 +127,13 @@ display: flex;
 }
 
 .form-group label {
-display: block;
-font-size: 14px;
+    display: block;
+    font-size: 14px;
 }
+
+
+
+
 
 .form-group input,
 .form-group textarea {
@@ -121,8 +142,12 @@ font-size: 14px;
     border: none;
     background: transparent;
     border-bottom: 1px solid #ccc;
-    color: #000;
+    color: #FF5600;
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
+}
+
+::-webkit-input-placeholder {
+    color: #FFA273;
 }
